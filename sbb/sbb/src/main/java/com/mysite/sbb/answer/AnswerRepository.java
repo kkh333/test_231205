@@ -1,4 +1,6 @@
 package com.mysite.sbb.answer;
 
-public class AnswerRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AnswerRepository extends JpaRepository<Answer, Integer> {
 }
